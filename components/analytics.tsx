@@ -40,7 +40,7 @@ export default function Analytics() {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-VCW7MGPC1S"
+        src="https://www.googletagmanager.com/gtag/js?id=G-17QZPRKHPY"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -48,7 +48,7 @@ export default function Analytics() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-VCW7MGPC1S', {
+          gtag('config', 'G-17QZPRKHPY', {
             anonymize_ip: true,
             allow_google_signals: false,
             allow_ad_personalization_signals: false
